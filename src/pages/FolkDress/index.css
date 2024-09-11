@@ -1,0 +1,15 @@
+.folk-dresses {
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}

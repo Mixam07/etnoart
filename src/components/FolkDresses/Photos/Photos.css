@@ -1,0 +1,99 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  justify-items: center;
+  /* margin-left: 2rem; */
+  width: fit-content;
+  /* border: 0.1rem solid #f5e7e7; */
+  /* padding: 0.3rem; */
+  /* border-radius: 1rem; */
+  /* box-shadow: 0 0 3rem 0.01rem rgb(231, 221, 221); */
+}
+
+.main-photo {
+  /* width: 26rem; */
+  /* height: 25rem; */
+  overflow: hidden;
+  cursor: zoom-in;
+  /* margin-bottom: 0.5rem; */
+  /* border-radius: 1rem; */
+}
+.main-photo img:hover {
+  transform: scale(1.5);
+  /* object-fit: contain; */
+}
+.main-photo img {
+  width: 600px;
+  height: 840px;
+  object-fit: cover;
+  transition: transform 1s ease-in;
+  display: block;
+  /* width: 100%; */
+}
+
+.other-photos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.other-photos img {
+  /* border-radius: 0.5rem; */
+  width: 9.375rem;
+  height: 10rem;
+  object-fit: cover;
+  /* filter: blur(3px); */
+  /* filter: grayscale(1); */
+  overflow: hidden;
+  cursor: pointer;
+  /* filter: blur(0.05rem) grayscale(75%); */
+  /* transition-property: transform, box-shadow, filter, border-radius; */
+  /* transition-duration: 0.4s; */
+  /* transition-timing-function: linear; */
+  filter:opacity(0.2);
+}
+
+.other-photo:hover {
+  /* transform: scale(1.2); */
+  /* filter: blur(0) grayscale(0); */
+  z-index: 100;
+  filter:opacity(1);
+  /* box-shadow: 0 0 2rem 0.2rem #c9c2c2; */
+  /* border-radius: 1rem; */
+}
+
+.other-photo.active {
+  /* filter: blur(0) grayscale(0);
+  border: 0.1rem solid rgb(241, 111, 111); */
+  filter:opacity(1);
+}
+
+@media screen and (max-width: 500px) {
+  .other-photos {
+    justify-content: center;
+  }
+  .other-photos img {
+    width: 8.5rem;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  .other-photos {
+    justify-content: center;
+  }
+  .other-photos img {
+    width: 7.8rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .other-photos {
+    justify-content: center;
+  }
+  .other-photos img {
+    width: 6.5rem;
+  }
+}

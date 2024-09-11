@@ -1,0 +1,50 @@
+.ant-layout-footer {
+    padding: 200px 50px;
+    background: #ffff;
+    margin-top: -5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-space.ant-space-vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+a {
+    color: #000000;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+
+a:hover {
+ color: #000000;
+}
+
+.copyright-text {
+    font-size: 10px;
+    word-spacing: 1px;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+}
+
+.whatsapp-icon svg {
+    fill: rgb(12, 129, 12);
+}

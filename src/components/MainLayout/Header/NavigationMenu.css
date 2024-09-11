@@ -1,0 +1,38 @@
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-menu-item {
+  display: block;
+  line-height: 43px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  color: #000000;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.navigation-menu-item:hover {
+  color: #7e4d51;
+}
+
+.navigation-menu-item.active {
+  border-bottom-color: #7e4d51;
+  color: #7e4d51;
+}
+
+@media screen and (max-width: 576px) {
+
+  .navigation-menu {
+    margin-top: 30px;
+  }
+  .navigation-menu .ant-space {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  
+}

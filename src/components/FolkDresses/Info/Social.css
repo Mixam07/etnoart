@@ -1,0 +1,42 @@
+.wap-social {
+  margin: 0 0 0 20px;
+  display: flex;
+  /* align-items: center; */
+  background-color: #000000;
+  color: white;
+  padding: 0.8rem;
+  width: 400px;
+  border-radius: 0.1rem;
+  border: 2px solid #000000;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  /* transition: box-shadow 1s ease-in-out, background-color 0.5s linear; */
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.wap-social:hover {
+  background-color: #ffffff;
+  color: #000000;
+  /* box-shadow: 0 0 2rem 0.5rem #8affb5;
+  background-color: #12ea61; */
+}
+
+@media screen and (max-width: 500px) {
+  .wap-social {
+     width: 280px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+ }
+
+ @media screen and (min-width: 500px) and (max-width: 768px) {
+  .wap-social {
+     width: 400px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+ }

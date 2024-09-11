@@ -1,0 +1,22 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-weight: normal;
+}
+
+.ant-layout {
+  background-color: #ffff;
+}
+
+/******************* content *********************/
+
+.ant-layout-content {
+  /* padding-top: 30px; */
+  /* overflow: hidden; */
+  /* padding-bottom: 80px; */
+}
+

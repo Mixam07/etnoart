@@ -1,0 +1,15 @@
+.souvenirs {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
